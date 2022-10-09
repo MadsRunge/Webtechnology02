@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch & Paint</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <h1>Fetch & Paint</h1>
+        <img src="DALL·E%202022-09-28%2009.56.50%20-%20a%20crazy%20wizard%20painting%20creatively%20on%20a%20canvas.png"
+             alt="Wizard from Dall-e" width="150px">
+    </div>
+</header>
+<main>
+   <div class="toolRow">
+       <div class="tools">
+           <div class="color">
+               <div class="title">Color
+               <input type="color" id="colors">
+               </div>
+           </div>
+           <div class="sizeSlider">
+               <div class="title">Size
+               <input type="range" min="1" max="50" value="10" id="size">
+               </div>
+           </div>
+           <div class="buttons">
+               <div class="btn"  id="clearBtn">Clear</div>
+               <div class="btn"  id="erase">Eraser</div>
+               <div class="btn"  id="saveImage">Save image</div>
+           </div>
+       </div>
+       <div class="myCanvas">
+           <canvas class="canvas" ></canvas>
+       </div>
+   </div>
+
+
+</main>
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
